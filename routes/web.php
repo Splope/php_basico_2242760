@@ -69,14 +69,11 @@ Route:: get('paises',function (){
 
     ];
 
-    foreach($paises as $nombrepais => $pais) {
-    echo"<h1> $nombrepais</h1>";
-    echo "<pre>";
-    print_r($pais ["capital"]);
-    print_r($pais ["moneda"]);
-    echo "</pre>";
-    echo "<hr />";
-}
+
+
+    //invocar la vista
+    //Llevando los datos a la vista
+    return view ("paises")-> with("naciones", $paises);
 
 });
 
