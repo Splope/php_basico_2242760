@@ -32,7 +32,7 @@ class MetabuscadorController extends Controller
                 break;
             case 6: return redirect()-> to ("https://www.ecosia.org/search?q=$termino");
                 break;
-            case 7: return redirect()-> to ("https://www.facebook.com/login/?privacy_mutation_token=$termino");
+            case 7: return redirect()-> to ("https://yandex.com/search/?text=$termino");
                 break;
             case 8: return redirect()-> to ("https://duckduckgo.com/?q=$termino");
                 break;

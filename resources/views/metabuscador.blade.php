@@ -75,7 +75,7 @@
           <div class="radio">
             <label for="motores-6">
               <input type="radio" name="motores" id="motores-6" value="7">
-              Facebook
+              Yandex
             </label>
             </div>
           <div class="radio">
